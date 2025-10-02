@@ -18,11 +18,11 @@ pragma solidity ^0.8.16;
 
 import { ScriptTools } from "dss-test/ScriptTools.sol";
 
-import { AllocatorOracle }   from "src/AllocatorOracle.sol";
-import { AllocatorRoles }    from "src/AllocatorRoles.sol";
-import { AllocatorRegistry } from "src/AllocatorRegistry.sol";
-import { AllocatorBuffer }   from "src/AllocatorBuffer.sol";
-import { AllocatorVault }    from "src/AllocatorVault.sol";
+import { AllocatorOracle }   from "../src/AllocatorOracle.sol";
+import { AllocatorRoles }    from "../src/AllocatorRoles.sol";
+import { AllocatorRegistry } from "../src/AllocatorRegistry.sol";
+import { AllocatorBuffer }   from "../src/AllocatorBuffer.sol";
+import { AllocatorVault }    from "../src/AllocatorVault.sol";
 
 import { AllocatorSharedInstance, AllocatorIlkInstance } from "./AllocatorInstances.sol";
 
